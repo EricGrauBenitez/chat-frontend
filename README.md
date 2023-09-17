@@ -16,33 +16,39 @@ Requirements:
 - Apache2 is also required.
 
 React Installation:
-```bash
 git clone https://github.com/EricGrauBenitez/chat-frontend.git
 
 Once, the project has been created. We have to install some dependencies:
 
 npm install
 
-Adding tools
+## Adding tools
 Now we have to install redux, axios and router-dom
 
 npm install react-redux @reduxjs/toolkit axios react-router-dom
 
-To activate the project, open the terminal from the folder and run:
+# To activate the project, open the terminal from the folder and run:
 
 npm start
 
-Structure
+
+### Structure
+
 The application itself is a chat with different conversations. There is also a user page to manage user information.
 
-Breakpoints
+### Breakpoints
+
 To ensure a responsive mobile experience, the following breakpoints have been defined:
 
-Up to 767px: Mobile
-Between 768px and 1023px: Tablet
-1024px or larger: Screen
-Login and Registration
+- Up to 767px: Mobile
+- Between 768px and 1023px: Tablet
+- 1024px or larger: Screen
+
+### Login and Registration
+
 For login and registration, I've chosen to use localStorage to manage different IDs and tokens. To handle user information, I've also used userSlice.
 
-Folder Architecture
+### Folder Architecture
+
 We have directories for layout, CSS, components, pages, and more.
+
