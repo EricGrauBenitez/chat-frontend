@@ -27,7 +27,7 @@ Now we have to install redux, axios and router-dom
 
 npm install react-redux @reduxjs/toolkit axios react-router-dom
 
-# To activate the project, open the terminal from the folder and run:
+## To activate the project, open the terminal from the folder and run:
 
 npm start
 
